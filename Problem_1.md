@@ -20,9 +20,12 @@ n = 3
 k = 3
 
 The result of comparison are :
-a  b    AND  OR  XOR
-1  2     0   3    3
-1  3     1   3    2
-2  3     2   3    1
+for a=1 and b=2 
+    AND - 0, OR - 3, XOR - 3
+for a=1 and b=3 
+    AND - 1, OR - 3, XOR - 2
+for a=2 and b=3 
+    AND - 2, OR - 3, XOR - 1
+
 
 For the AND comparison, the maximum is 2. For the OR comparison, none of the values is less than k, so the maximum is . For the XOR comparison, the maximum value less than k is 2.
